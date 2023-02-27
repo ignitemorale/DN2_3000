@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from utee import wage_initializer,wage_quantizer
+import _jit_internal_1
 import _jit_internal_1.weak_script_method as weak_script_method
 import numpy as np
 
