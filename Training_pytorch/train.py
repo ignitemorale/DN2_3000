@@ -97,7 +97,8 @@ for k, v in args.__dict__.items():
 logger("========================================")
 
 # seed
-args.cuda = torch.cuda.is_available(True)
+args.cuda = torch.cuda.is_available()
+printf(args.cuda)
 torch.manual_seed(args.seed)
 if args.cuda:
     torch.cuda.manual_seed(args.seed)
