@@ -98,7 +98,7 @@ logger("========================================")
 
 # seed
 args.cuda = torch.cuda.is_available()
-printf(args.cuda)
+print(args.cuda)
 torch.manual_seed(args.seed)
 if args.cuda:
     torch.cuda.manual_seed(args.seed)
