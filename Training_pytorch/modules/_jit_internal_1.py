@@ -6,7 +6,7 @@ circular dependency problems
 
 import weakref
 import inspect
-from torch._six import builtins
+from modules._six_1 import builtins
 
 # Tracks standalone weak script functions
 compiled_weak_fns = weakref.WeakKeyDictionary()  # noqa: T484
