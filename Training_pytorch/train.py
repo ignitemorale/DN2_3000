@@ -263,7 +263,7 @@ try:
                 misc.model_save(model, new_file, old_file=old_file, verbose=True)
                 best_acc = acc
                 old_file = new_file
-            call(["/bin/bash", "./layer_record/trace_command.sh"])
+            "=================================================================="
 
 
 except Exception as e:
